@@ -71,6 +71,6 @@ io.on('connection', (socket) => {
 
 
 
-server.listen(port, ()=> {
+server.listen(3000,'162.241.194.17', ()=> {
     console.log(`Server up on port ${port}`);
 })
